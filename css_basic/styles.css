@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Layout</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Apply flexbox to body */
+    body {
+      display: flex;
+      flex-direction: column;
+      margin: 0; /* Remove default margin */
+      height: 100vh; /* Full viewport height */
+    }
 
+    /* Apply flexbox to main */
+    main {
+      display: flex;
+      flex-directi
